@@ -317,6 +317,36 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">25fc7bfa539640efbd52101914eb5e5f</property>
   </producer>
+  <producer id="producer21" in="00:00:00.000" out="00:25:04.900">
+    <property name="length">00:25:05.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Siding/SidingPart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-19T21:27:08</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ab2f9068c5eb4ab8b19af6012be8f85c</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="00:05:54.200">
+    <property name="length">00:05:54.300</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Siding/SidingPart2.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-19T22:46:13</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">706c4f8da4caeef21a2d512be643bb27</property>
+  </producer>
   <playlist id="main_bin">
     <property name="xml_retain">1</property>
     <entry producer="producer0" in="00:00:00.000" out="00:28:06.400"/>
@@ -340,20 +370,22 @@
     <entry producer="producer18" in="00:00:00.000" out="00:13:07.600"/>
     <entry producer="producer19" in="00:00:00.000" out="00:25:07.900"/>
     <entry producer="producer20" in="00:00:00.000" out="00:03:51.800"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:25:04.900"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:05:54.200"/>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="03:42:02.500">
-    <property name="length">03:42:02.600</property>
+  <producer id="black" in="00:00:00.000" out="03:32:07.800">
+    <property name="length">03:32:07.900</property>
     <property name="eof">pause</property>
-    <property name="resource">C:/Users/MrLange/AppData/Local/Meltytech/Shotcut/autosave/0</property>
+    <property name="resource">0</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="mlt_image_format">rgb24a</property>
     <property name="set.test_audio">0</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="03:42:02.500"/>
+    <entry producer="black" in="00:00:00.000" out="03:32:07.800"/>
   </playlist>
-  <producer id="producer21" in="00:00:00.000" out="00:28:06.400">
+  <producer id="producer23" in="00:00:00.000" out="00:28:06.400">
     <property name="length">00:28:06.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Preparing Yard/ExcavationYardPrep.MP4</property>
@@ -370,7 +402,7 @@
     <property name="xml">was here</property>
     <property name="shotcut:caption">ExcavationYardPrep.MP4</property>
   </producer>
-  <producer id="producer22" in="00:00:00.000" out="00:01:11.500">
+  <producer id="producer24" in="00:00:00.000" out="00:01:11.500">
     <property name="length">00:01:11.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Delivery/DeliveryPartI.MP4</property>
@@ -386,7 +418,7 @@
     <property name="shotcut:hash">2a8404aef40b7da6bc76e726a4c3f97b</property>
     <property name="shotcut:caption">DeliveryPartI.MP4</property>
   </producer>
-  <producer id="producer23" in="00:00:00.000" out="00:01:53.700">
+  <producer id="producer25" in="00:00:00.000" out="00:01:53.700">
     <property name="length">00:01:53.800</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Delivery/DeliveryPartII.MP4</property>
@@ -402,7 +434,7 @@
     <property name="shotcut:hash">c48c6ec5d92d1a4609e90ac83d48bc69</property>
     <property name="shotcut:caption">DeliveryPartII.MP4</property>
   </producer>
-  <producer id="producer24" in="00:00:00.000" out="00:10:48.500">
+  <producer id="producer26" in="00:00:00.000" out="00:10:48.500">
     <property name="length">00:10:48.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart1.MP4</property>
@@ -418,7 +450,7 @@
     <property name="shotcut:hash">dd03d1710f46a956dff2a70b84a929ae</property>
     <property name="shotcut:caption">FramingPart1.MP4</property>
   </producer>
-  <producer id="producer25" in="00:00:00.000" out="00:23:25.100">
+  <producer id="producer27" in="00:00:00.000" out="00:23:25.100">
     <property name="length">00:23:25.200</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart2.MP4</property>
@@ -434,7 +466,7 @@
     <property name="shotcut:hash">949683eda02ae72d11fa92f2fbc47d3b</property>
     <property name="shotcut:caption">FramingPart2.MP4</property>
   </producer>
-  <producer id="producer26" in="00:00:00.000" out="00:04:36.900">
+  <producer id="producer28" in="00:00:00.000" out="00:04:36.900">
     <property name="length">00:04:37.000</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart3.MP4</property>
@@ -449,38 +481,6 @@
     <property name="xml">was here</property>
     <property name="shotcut:hash">4c5566aa7548b6bb8e78116250f6a52e</property>
     <property name="shotcut:caption">FramingPart3.MP4</property>
-  </producer>
-  <producer id="producer27" in="00:00:00.000" out="00:28:21.900">
-    <property name="length">00:28:22.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart4.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-06-09T17:36:09</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">f83ca72d27a2cd3f51312d7801860c5b</property>
-    <property name="shotcut:caption">FramingPart4.MP4</property>
-  </producer>
-  <producer id="producer28" in="00:00:00.000" out="00:28:21.900">
-    <property name="length">00:28:22.000</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart4.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-06-09T17:36:09</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">f83ca72d27a2cd3f51312d7801860c5b</property>
-    <property name="shotcut:caption">FramingPart4.MP4</property>
   </producer>
   <producer id="producer29" in="00:00:00.000" out="00:28:21.900">
     <property name="length">00:28:22.000</property>
@@ -498,7 +498,39 @@
     <property name="shotcut:hash">f83ca72d27a2cd3f51312d7801860c5b</property>
     <property name="shotcut:caption">FramingPart4.MP4</property>
   </producer>
-  <producer id="producer30" in="00:00:00.000" out="00:02:07.500">
+  <producer id="producer30" in="00:00:00.000" out="00:28:21.900">
+    <property name="length">00:28:22.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart4.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-09T17:36:09</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f83ca72d27a2cd3f51312d7801860c5b</property>
+    <property name="shotcut:caption">FramingPart4.MP4</property>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="00:28:21.900">
+    <property name="length">00:28:22.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart4.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-09T17:36:09</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f83ca72d27a2cd3f51312d7801860c5b</property>
+    <property name="shotcut:caption">FramingPart4.MP4</property>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="00:02:07.500">
     <property name="length">00:02:07.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart5.MP4</property>
@@ -514,7 +546,7 @@
     <property name="shotcut:hash">d0840651d8155a790cb47b3e44cd0af8</property>
     <property name="shotcut:caption">FramingPart5.MP4</property>
   </producer>
-  <producer id="producer31" in="00:00:00.000" out="00:28:02.400">
+  <producer id="producer33" in="00:00:00.000" out="00:28:02.400">
     <property name="length">00:28:02.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart6.MP4</property>
@@ -530,7 +562,7 @@
     <property name="shotcut:hash">ffbd6e9e1a6484d0fadc6149cbf78046</property>
     <property name="shotcut:caption">FramingPart6.MP4</property>
   </producer>
-  <producer id="producer32" in="00:00:00.000" out="00:04:00.700">
+  <producer id="producer34" in="00:00:00.000" out="00:04:00.700">
     <property name="length">00:04:00.800</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart8.MP4</property>
@@ -548,8 +580,8 @@
   </producer>
   <tractor id="tractor0" global_feed="1" in="00:00:00.000" out="00:00:00.100">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer31" in="00:25:22.900" out="00:25:23.000"/>
-    <track producer="producer32" in="00:00:00.000" out="00:00:00.100"/>
+    <track producer="producer33" in="00:25:22.900" out="00:25:23.000"/>
+    <track producer="producer34" in="00:00:00.000" out="00:00:00.100"/>
     <transition id="transition0" out="00:00:00.100">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -565,7 +597,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer33" in="00:00:00.000" out="00:04:00.700">
+  <producer id="producer35" in="00:00:00.000" out="00:04:00.700">
     <property name="length">00:04:00.800</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart8.MP4</property>
@@ -581,7 +613,7 @@
     <property name="shotcut:hash">864e540610d65cb071f2f4752d06afac</property>
     <property name="shotcut:caption">FramingPart8.MP4</property>
   </producer>
-  <producer id="producer34" in="00:00:00.000" out="00:08:40.400">
+  <producer id="producer36" in="00:00:00.000" out="00:08:40.400">
     <property name="length">00:08:40.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart9.MP4</property>
@@ -597,7 +629,7 @@
     <property name="shotcut:hash">2f1ea28834f7ed59c127797cf7c5efbb</property>
     <property name="shotcut:caption">FramingPart9.MP4</property>
   </producer>
-  <producer id="producer35" in="00:00:00.000" out="00:08:40.400">
+  <producer id="producer37" in="00:00:00.000" out="00:08:40.400">
     <property name="length">00:08:40.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart9.MP4</property>
@@ -615,8 +647,8 @@
   </producer>
   <tractor id="tractor1" global_feed="1" in="00:00:00.000" out="00:00:00.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer34" in="00:03:17.300" out="00:03:17.500"/>
-    <track producer="producer35" in="00:04:31.900" out="00:04:32.100"/>
+    <track producer="producer36" in="00:03:17.300" out="00:03:17.500"/>
+    <track producer="producer37" in="00:04:31.900" out="00:04:32.100"/>
     <transition id="transition2" out="00:00:00.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -632,7 +664,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer36" in="00:00:00.000" out="00:28:59.900">
+  <producer id="producer38" in="00:00:00.000" out="00:28:59.900">
     <property name="length">00:29:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart10.MP4</property>
@@ -648,7 +680,7 @@
     <property name="shotcut:hash">9354a8a4f074526aca6a1a7661fb9a3c</property>
     <property name="shotcut:caption">FramingPart10.MP4</property>
   </producer>
-  <producer id="producer37" in="00:00:00.000" out="00:28:59.900">
+  <producer id="producer39" in="00:00:00.000" out="00:28:59.900">
     <property name="length">00:29:00.000</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart10.MP4</property>
@@ -666,8 +698,8 @@
   </producer>
   <tractor id="tractor2" global_feed="1" in="00:00:00.000" out="00:00:00.100">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer36" in="00:16:28.400" out="00:16:28.500"/>
-    <track producer="producer37" in="00:23:34.200" out="00:23:34.300"/>
+    <track producer="producer38" in="00:16:28.400" out="00:16:28.500"/>
+    <track producer="producer39" in="00:23:34.200" out="00:23:34.300"/>
     <transition id="transition4" out="00:00:00.100">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -683,7 +715,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer38" in="00:00:00.000" out="00:03:38.500">
+  <producer id="producer40" in="00:00:00.000" out="00:03:38.500">
     <property name="length">00:03:38.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Framing/FramingPart11.MP4</property>
@@ -701,8 +733,8 @@
   </producer>
   <tractor id="tractor3" global_feed="1" in="00:00:00.000" out="00:00:00.000">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer37" in="00:28:59.900" out="00:28:59.900"/>
-    <track producer="producer38" in="00:00:00.000" out="00:00:00.000"/>
+    <track producer="producer39" in="00:28:59.900" out="00:28:59.900"/>
+    <track producer="producer40" in="00:00:00.000" out="00:00:00.000"/>
     <transition id="transition6">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -711,57 +743,6 @@
       <property name="alpha_over">1</property>
     </transition>
     <transition id="transition7">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="mlt_service">mix</property>
-      <property name="start">-1</property>
-      <property name="accepts_blanks">1</property>
-    </transition>
-  </tractor>
-  <producer id="producer39" in="00:00:00.000" out="00:31:23.400">
-    <property name="length">00:31:23.500</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Local/Images-Video/Barn/Roofing &amp; Wrap/RoofingPart1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-06-12T19:01:30</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">510d15bdf859b129b1157e25ac947833</property>
-    <property name="shotcut:caption">RoofingPart1.MP4</property>
-  </producer>
-  <producer id="producer40" in="00:00:00.000" out="00:31:23.400">
-    <property name="length">00:31:23.500</property>
-    <property name="eof">pause</property>
-    <property name="resource">D:/Local/Images-Video/Barn/Roofing &amp; Wrap/RoofingPart1.MP4</property>
-    <property name="audio_index">-1</property>
-    <property name="video_index">0</property>
-    <property name="mute_on_pause">0</property>
-    <property name="mlt_service">avformat-novalidate</property>
-    <property name="seekable">1</property>
-    <property name="aspect_ratio">1</property>
-    <property name="creation_time">2021-06-12T19:01:30</property>
-    <property name="global_feed">1</property>
-    <property name="xml">was here</property>
-    <property name="shotcut:hash">510d15bdf859b129b1157e25ac947833</property>
-    <property name="shotcut:caption">RoofingPart1.MP4</property>
-  </producer>
-  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.300">
-    <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer39" in="00:02:54.500" out="00:02:54.800"/>
-    <track producer="producer40" in="00:08:22.300" out="00:08:22.600"/>
-    <transition id="transition8" out="00:00:00.300">
-      <property name="a_track">0</property>
-      <property name="b_track">1</property>
-      <property name="factory">loader</property>
-      <property name="mlt_service">luma</property>
-      <property name="alpha_over">1</property>
-    </transition>
-    <transition id="transition9" out="00:00:00.300">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
@@ -785,7 +766,58 @@
     <property name="shotcut:hash">510d15bdf859b129b1157e25ac947833</property>
     <property name="shotcut:caption">RoofingPart1.MP4</property>
   </producer>
-  <producer id="producer42" in="00:00:00.000" out="00:09:19.500">
+  <producer id="producer42" in="00:00:00.000" out="00:31:23.400">
+    <property name="length">00:31:23.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Roofing &amp; Wrap/RoofingPart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-12T19:01:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">510d15bdf859b129b1157e25ac947833</property>
+    <property name="shotcut:caption">RoofingPart1.MP4</property>
+  </producer>
+  <tractor id="tractor4" global_feed="1" in="00:00:00.000" out="00:00:00.300">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer41" in="00:02:54.500" out="00:02:54.800"/>
+    <track producer="producer42" in="00:08:22.300" out="00:08:22.600"/>
+    <transition id="transition8" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer43" in="00:00:00.000" out="00:31:23.400">
+    <property name="length">00:31:23.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Roofing &amp; Wrap/RoofingPart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-12T19:01:30</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">510d15bdf859b129b1157e25ac947833</property>
+    <property name="shotcut:caption">RoofingPart1.MP4</property>
+  </producer>
+  <producer id="producer44" in="00:00:00.000" out="00:09:19.500">
     <property name="length">00:09:19.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart1.MP4</property>
@@ -801,7 +833,7 @@
     <property name="shotcut:hash">ad48b7c3eade96ea70ac7f82e24807de</property>
     <property name="shotcut:caption">WindowsPart1.MP4</property>
   </producer>
-  <producer id="producer43" in="00:00:00.000" out="00:09:19.500">
+  <producer id="producer45" in="00:00:00.000" out="00:09:19.500">
     <property name="length">00:09:19.600</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart1.MP4</property>
@@ -817,7 +849,7 @@
     <property name="shotcut:hash">ad48b7c3eade96ea70ac7f82e24807de</property>
     <property name="shotcut:caption">WindowsPart1.MP4</property>
   </producer>
-  <producer id="producer44" in="00:00:00.000" out="00:08:22.400">
+  <producer id="producer46" in="00:00:00.000" out="00:08:22.400">
     <property name="length">00:08:22.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart2.MP4</property>
@@ -833,7 +865,7 @@
     <property name="shotcut:hash">77ee964f7621d62d199785c542a48df9</property>
     <property name="shotcut:caption">WindowsPart2.MP4</property>
   </producer>
-  <producer id="producer45" in="00:00:00.000" out="00:08:22.400">
+  <producer id="producer47" in="00:00:00.000" out="00:08:22.400">
     <property name="length">00:08:22.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart2.MP4</property>
@@ -851,8 +883,8 @@
   </producer>
   <tractor id="tractor5" global_feed="1" in="00:00:00.000" out="00:00:00.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer44" in="00:00:47.900" out="00:00:48.100"/>
-    <track producer="producer45" in="00:02:11.300" out="00:02:11.500"/>
+    <track producer="producer46" in="00:00:47.900" out="00:00:48.100"/>
+    <track producer="producer47" in="00:02:11.300" out="00:02:11.500"/>
     <transition id="transition10" out="00:00:00.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -868,7 +900,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer46" in="00:00:00.000" out="00:08:22.400">
+  <producer id="producer48" in="00:00:00.000" out="00:08:22.400">
     <property name="length">00:08:22.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart2.MP4</property>
@@ -886,8 +918,8 @@
   </producer>
   <tractor id="tractor6" global_feed="1" in="00:00:00.000" out="00:00:00.000">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer45" in="00:02:30.300" out="00:02:30.300"/>
-    <track producer="producer46" in="00:02:50.000" out="00:02:50.000"/>
+    <track producer="producer47" in="00:02:30.300" out="00:02:30.300"/>
+    <track producer="producer48" in="00:02:50.000" out="00:02:50.000"/>
     <transition id="transition12">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -903,7 +935,7 @@
       <property name="accepts_blanks">1</property>
     </transition>
   </tractor>
-  <producer id="producer47" in="00:00:00.000" out="00:08:22.400">
+  <producer id="producer49" in="00:00:00.000" out="00:08:22.400">
     <property name="length">00:08:22.500</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Windows/WindowsPart2.MP4</property>
@@ -919,7 +951,7 @@
     <property name="shotcut:hash">77ee964f7621d62d199785c542a48df9</property>
     <property name="shotcut:caption">WindowsPart2.MP4</property>
   </producer>
-  <producer id="producer48" in="00:00:00.000" out="00:13:07.600">
+  <producer id="producer50" in="00:00:00.000" out="00:13:07.600">
     <property name="length">00:13:07.700</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Door/Door.MP4</property>
@@ -935,7 +967,7 @@
     <property name="shotcut:hash">61215f4ef97d19f7ba9ba90ddb7613b2</property>
     <property name="shotcut:caption">Door.MP4</property>
   </producer>
-  <producer id="producer49" in="00:00:00.000" out="00:13:07.600">
+  <producer id="producer51" in="00:00:00.000" out="00:13:07.600">
     <property name="length">00:13:07.700</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Door/Door.MP4</property>
@@ -953,8 +985,8 @@
   </producer>
   <tractor id="tractor7" global_feed="1" in="00:00:00.000" out="00:00:00.200">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer48" in="00:03:57.400" out="00:03:57.600"/>
-    <track producer="producer49" in="00:04:24.600" out="00:04:24.800"/>
+    <track producer="producer50" in="00:03:57.400" out="00:03:57.600"/>
+    <track producer="producer51" in="00:04:24.600" out="00:04:24.800"/>
     <transition id="transition14" out="00:00:00.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -965,12 +997,12 @@
     <transition id="transition15" out="00:00:00.200">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
-      <property name="mlt_service">mix</property>
     </transition>
   </tractor>
-  <producer id="producer50" in="00:00:00.000" out="00:13:07.600">
+  <producer id="producer52" in="00:00:00.000" out="00:13:07.600">
     <property name="length">00:13:07.700</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Door/Door.MP4</property>
@@ -986,7 +1018,7 @@
     <property name="shotcut:hash">61215f4ef97d19f7ba9ba90ddb7613b2</property>
     <property name="shotcut:caption">Door.MP4</property>
   </producer>
-  <producer id="producer51" in="00:00:00.000" out="00:25:07.900">
+  <producer id="producer53" in="00:00:00.000" out="00:25:07.900">
     <property name="length">00:25:08.000</property>
     <property name="eof">pause</property>
     <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
@@ -1004,8 +1036,8 @@
   </producer>
   <tractor id="tractor8" global_feed="1" in="00:00:00.000" out="00:00:00.500">
     <property name="shotcut:transition">lumaMix</property>
-    <track producer="producer50" in="00:13:07.100" out="00:13:07.600"/>
-    <track producer="producer51" in="00:01:10.700" out="00:01:11.200"/>
+    <track producer="producer52" in="00:13:07.100" out="00:13:07.600"/>
+    <track producer="producer53" in="00:01:10.700" out="00:01:11.200"/>
     <transition id="transition16" out="00:00:00.500">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
@@ -1016,6 +1048,296 @@
     <transition id="transition17" out="00:00:00.500">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer54" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <producer id="producer55" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <producer id="producer56" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor9" global_feed="1" in="00:00:00.000" out="00:00:00.600">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer55" in="00:05:54.700" out="00:05:55.300"/>
+    <track producer="producer56" in="00:06:25.700" out="00:06:26.300"/>
+    <transition id="transition18" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition19" out="00:00:00.600">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer57" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <producer id="producer58" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor10" global_feed="1" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer57" in="00:13:30.600" out="00:13:30.600"/>
+    <track producer="producer58" in="00:14:07.500" out="00:14:07.500"/>
+    <transition id="transition20">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition21">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer59" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor11" global_feed="1" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer58" in="00:14:20.800" out="00:14:20.800"/>
+    <track producer="producer59" in="00:15:18.000" out="00:15:18.000"/>
+    <transition id="transition22">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition23">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer60" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor12" global_feed="1" in="00:00:00.000" out="00:00:00.500">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer59" in="00:15:20.200" out="00:15:20.700"/>
+    <track producer="producer60" in="00:15:40.900" out="00:15:41.400"/>
+    <transition id="transition24" out="00:00:00.500">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition25" out="00:00:00.500">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer61" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <producer id="producer62" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <producer id="producer63" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor13" global_feed="1" in="00:00:00.000" out="00:00:00.000">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer62" in="00:19:19.800" out="00:19:19.800"/>
+    <track producer="producer63" in="00:19:28.100" out="00:19:28.100"/>
+    <transition id="transition26">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition27">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer64" in="00:00:00.000" out="00:25:07.900">
+    <property name="length">00:25:08.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">D:/Local/Images-Video/Barn/Low Voltage Lighting/LowVoltagePart1.MP4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="creation_time">2021-06-16T18:44:10</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">dbe7411f79426d301f91fee9f810200d</property>
+    <property name="shotcut:caption">LowVoltagePart1.MP4</property>
+  </producer>
+  <tractor id="tractor14" global_feed="1" in="00:00:00.000" out="00:00:00.100">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer63" in="00:19:37.200" out="00:19:37.300"/>
+    <track producer="producer64" in="00:19:43.600" out="00:19:43.700"/>
+    <transition id="transition28" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+    </transition>
+    <transition id="transition29" out="00:00:00.100">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
       <property name="start">-1</property>
       <property name="accepts_blanks">1</property>
       <property name="mlt_service">mix</property>
@@ -1024,65 +1346,85 @@
   <playlist id="playlist0">
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
-    <entry producer="producer21" in="00:00:00.000" out="00:28:06.400"/>
-    <entry producer="producer22" in="00:00:00.000" out="00:01:11.500"/>
-    <entry producer="producer23" in="00:00:00.000" out="00:01:48.300"/>
-    <entry producer="producer24" in="00:00:00.000" out="00:10:48.500"/>
-    <entry producer="producer25" in="00:00:00.000" out="00:23:25.100"/>
-    <entry producer="producer26" in="00:00:00.000" out="00:04:36.900"/>
-    <entry producer="producer27" in="00:00:00.000" out="00:11:59.100"/>
-    <entry producer="producer28" in="00:15:38.900" out="00:22:44.900"/>
-    <entry producer="producer29" in="00:25:15.300" out="00:28:21.900"/>
-    <entry producer="producer30" in="00:00:00.000" out="00:02:07.500"/>
-    <entry producer="producer31" in="00:02:50.600" out="00:25:22.800"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:28:06.400"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:01:11.500"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:01:48.300"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:10:48.500"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:23:25.100"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:04:36.900"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:11:59.100"/>
+    <entry producer="producer30" in="00:15:38.900" out="00:22:44.900"/>
+    <entry producer="producer31" in="00:25:15.300" out="00:28:21.900"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:02:07.500"/>
+    <entry producer="producer33" in="00:02:50.600" out="00:25:22.800"/>
     <entry producer="tractor0" in="00:00:00.000" out="00:00:00.100"/>
-    <entry producer="producer32" in="00:00:00.200" out="00:02:36.700"/>
-    <entry producer="producer33" in="00:03:39.000" out="00:04:00.500"/>
-    <entry producer="producer34" in="00:00:00.000" out="00:03:17.200"/>
+    <entry producer="producer34" in="00:00:00.200" out="00:02:36.700"/>
+    <entry producer="producer35" in="00:03:39.000" out="00:04:00.500"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:03:17.200"/>
     <entry producer="tractor1" in="00:00:00.000" out="00:00:00.200"/>
-    <entry producer="producer35" in="00:04:32.200" out="00:08:13.500"/>
-    <entry producer="producer36" in="00:00:00.000" out="00:16:28.300"/>
+    <entry producer="producer37" in="00:04:32.200" out="00:08:13.500"/>
+    <entry producer="producer38" in="00:00:00.000" out="00:16:28.300"/>
     <entry producer="tractor2" in="00:00:00.000" out="00:00:00.100"/>
-    <entry producer="producer37" in="00:23:34.400" out="00:28:59.800"/>
+    <entry producer="producer39" in="00:23:34.400" out="00:28:59.800"/>
     <entry producer="tractor3" in="00:00:00.000" out="00:00:00.000"/>
-    <entry producer="producer38" in="00:00:00.100" out="00:02:22.300"/>
-    <entry producer="producer39" in="00:00:00.000" out="00:02:54.400"/>
+    <entry producer="producer40" in="00:00:00.100" out="00:02:22.300"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:02:54.400"/>
     <entry producer="tractor4" in="00:00:00.000" out="00:00:00.300"/>
-    <entry producer="producer40" in="00:08:22.700" out="00:22:24.900"/>
+    <entry producer="producer42" in="00:08:22.700" out="00:22:24.900"/>
     <blank length="00:00:00.300"/>
-    <entry producer="producer41" in="00:26:54.800" out="00:31:05.600"/>
+    <entry producer="producer43" in="00:26:54.800" out="00:31:05.600"/>
     <blank length="00:00:00.500"/>
-    <entry producer="producer42" in="00:00:00.000" out="00:04:24.100"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:04:24.100"/>
     <blank length="00:00:00.400"/>
-    <entry producer="producer43" in="00:05:49.500" out="00:09:19.500"/>
+    <entry producer="producer45" in="00:05:49.500" out="00:09:19.500"/>
     <blank length="00:00:00.200"/>
-    <entry producer="producer44" in="00:00:28.000" out="00:00:47.800"/>
+    <entry producer="producer46" in="00:00:28.000" out="00:00:47.800"/>
     <entry producer="tractor5" in="00:00:00.000" out="00:00:00.200"/>
-    <entry producer="producer45" in="00:02:11.600" out="00:02:30.200"/>
+    <entry producer="producer47" in="00:02:11.600" out="00:02:30.200"/>
     <entry producer="tractor6" in="00:00:00.000" out="00:00:00.000"/>
-    <entry producer="producer46" in="00:02:50.100" out="00:05:26.500"/>
-    <entry producer="producer47" in="00:06:10.600" out="00:08:13.500"/>
-    <entry producer="producer48" in="00:00:00.000" out="00:03:57.300"/>
+    <entry producer="producer48" in="00:02:50.100" out="00:05:26.500"/>
+    <entry producer="producer49" in="00:06:10.600" out="00:08:13.500"/>
+    <entry producer="producer50" in="00:00:00.000" out="00:03:57.300"/>
     <entry producer="tractor7" in="00:00:00.000" out="00:00:00.200"/>
-    <entry producer="producer50" in="00:04:24.900" out="00:13:07.000"/>
+    <entry producer="producer52" in="00:04:24.900" out="00:13:07.000"/>
     <entry producer="tractor8" in="00:00:00.000" out="00:00:00.500"/>
-    <entry producer="producer51" in="00:01:11.300" out="00:25:07.900"/>
+    <entry producer="producer53" in="00:01:11.300" out="00:04:26.000"/>
+    <entry producer="producer54" in="00:04:36.300" out="00:05:07.500"/>
+    <blank length="00:00:00.400"/>
+    <entry producer="producer55" in="00:05:51.300" out="00:05:54.600"/>
+    <entry producer="tractor9" in="00:00:00.000" out="00:00:00.600"/>
+    <entry producer="producer56" in="00:06:26.400" out="00:06:34.300"/>
+    <blank length="00:00:00.100"/>
+    <entry producer="producer57" in="00:08:44.500" out="00:13:30.500"/>
+    <entry producer="tractor10" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer58" in="00:14:07.600" out="00:14:20.700"/>
+    <entry producer="tractor11" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer59" in="00:15:18.100" out="00:15:20.100"/>
+    <entry producer="tractor12" in="00:00:00.000" out="00:00:00.500"/>
+    <entry producer="producer60" in="00:15:41.500" out="00:15:44.500"/>
+    <blank length="00:00:00.100"/>
+    <entry producer="producer61" in="00:15:53.500" out="00:18:28.400"/>
+    <entry producer="producer62" in="00:18:48.700" out="00:19:19.700"/>
+    <entry producer="tractor13" in="00:00:00.000" out="00:00:00.000"/>
+    <entry producer="producer63" in="00:19:28.200" out="00:19:37.100"/>
+    <entry producer="tractor14" in="00:00:00.000" out="00:00:00.100"/>
+    <entry producer="producer64" in="00:19:43.800" out="00:21:26.200"/>
   </playlist>
-  <tractor id="tractor9" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="03:42:02.500">
+  <tractor id="tractor15" title="Shotcut version 21.02.27" global_feed="1" in="00:00:00.000" out="03:32:07.800">
     <property name="shotcut">1</property>
     <property name="shotcut:projectAudioChannels">2</property>
     <property name="shotcut:projectFolder">0</property>
-    <property name="shotcut:scaleFactor">0.186986</property>
+    <property name="shotcut:scaleFactor">0.831216</property>
     <track producer="background"/>
     <track producer="playlist0"/>
-    <transition id="transition18">
+    <transition id="transition30">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="mlt_service">mix</property>
       <property name="always_active">1</property>
       <property name="sum">1</property>
     </transition>
-    <transition id="transition19">
+    <transition id="transition31">
       <property name="a_track">0</property>
       <property name="b_track">1</property>
       <property name="version">0.9</property>
